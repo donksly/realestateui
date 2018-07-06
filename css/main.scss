@@ -1,0 +1,19 @@
+$header_border:lightblue;
+$white:white;
+.navbar{
+    position: fixed;
+    border-radius: 0 !important;
+    z-index: 99999;
+    width: 100%;
+    height: 80px;
+    background: $white;
+    border-bottom: 1px solid $header_border;
+}
+
+.content{
+    padding-top: 7%;
+}
+
+.navbar > .navbar-nav{
+    height: 80px;
+}
